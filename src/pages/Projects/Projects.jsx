@@ -8,7 +8,7 @@ const projects = [
     title: "Daraz Review Insight (Product Analysis using NLP)",
     description:
       "A browser extension that scrapes product reviews from Daraz, analyzes sentiment using VADER and a Logistic Regression model, and provides real-time insights without using a database.",
-    url: "/src/assets/images/analysis bhaisakeko.png", // Replace with real screenshot
+    url: "/assets/images/analysis bhaisakeko.png", // Replace with real screenshot
     color: "#00C9A7",
     githubLink: "https://github.com/nigamyadav72/", // update if repo name differs
     liveLink: "https://daraz-review-extension.vercel.app/", // update if live demo link differs
@@ -17,7 +17,7 @@ const projects = [
     title: "Full Stack Spotify Clone",
     description:
       "A full-featured music streaming app inspired by Spotify with authentication, song uploads, streaming, subscriptions, and Stripe-powered payments. Built with Next.js 13.4, Supabase, PostgreSQL, and Tailwind CSS.",
-    url: "/src/assets/images/spotifyclone.png", // Replace with real screenshot
+    url: "/assets/images/spotifyclone.png", // Replace with real screenshot
     color: "#1DB954", // Spotify green
     githubLink: "https://github.com/nigamyadav72/Spotify-Clone", // update if repo name differs
     liveLink: "https://spotify-clone-steel-one.vercel.app/", // update with your live demo
@@ -26,7 +26,7 @@ const projects = [
     title: "Image-Based Search System (Deep Learning)",
     description:
       "An intelligent e-commerce search system that lets users find products using images instead of text. Built with CNNs for feature extraction, cosine similarity for visual matching, and integrated with Django REST API and React frontend.",
-    url: "src/assets/images/imagesearch.png", // Replace with real screenshot
+    url: "/assets/images/imagesearch.png", // Replace with real screenshot
     color: "#FF6B6B",
     githubLink: "https://github.com/nigamyadav72/Major_Project", // update if repo name differs
     liveLink: "https://image-search-system.vercel.app/", // update with your demo link
