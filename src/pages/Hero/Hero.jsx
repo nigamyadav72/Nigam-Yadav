@@ -47,21 +47,21 @@ const testimonials = [
     role: "Java Developer | colleague",
     message:
       "Nigam is a highly skilled developer! His code is clean, efficient, and his problem-solving skills are top-notch.",
-    avatar: "/src/assets/images/testimonial1.png",
+    avatar: "/assets/images/testimonial1.png",
   },
   {
     name: "Ritesh Sahani",
     role: "Django Developer | colleague",
     message:
       "Working with Nigam was an amazing experience. He brings creativity and efficiency to every project.",
-    avatar: "/src/assets/images/testimonial3.jpg",
+    avatar: "/assets/images/testimonial3.jpg",
   },
   {
     name: "Abishek Gupta",
     role: "Full Stack Developer",
     message:
       "Nigam’s expertise in full-stack development helped us ship our product faster and better. Truly reliable!",
-    avatar: "src/assets/images/testimonial2.jpg",
+    avatar: "/assets/images/testimonial2.jpg",
   },
 ];
 

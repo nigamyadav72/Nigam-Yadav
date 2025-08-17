@@ -1,6 +1,5 @@
 
 import { motion } from "framer-motion";
-import HeroImg from "@/assets/images/hero.jpeg";
 
 export default function About() {
   return (
@@ -39,7 +38,7 @@ export default function About() {
           >
             <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-purple-500 to-blue-500 blur opacity-40 group-hover:opacity-70 transition duration-500"></div>
             <img
-              src={HeroImg}
+              src="assets/images/hero.jpeg"
               alt="About illustration"
               className="relative rounded-2xl shadow-xl border border-white/10"
             />
