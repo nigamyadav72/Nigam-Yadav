@@ -71,8 +71,6 @@ portfolio/
 │   │   │   └── About.jsx
 │   │   ├── Contact/
 │   │   │   └── Contact.jsx
-│   │   ├── Experience/
-│   │   │   └── Experience.jsx
 │   │   ├── Header/
 │   │   │   └── Header.jsx
 │   │   ├── Hero/
