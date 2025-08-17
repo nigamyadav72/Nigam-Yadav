@@ -43,25 +43,25 @@ const GridBackground = () => {
 // Testimonial Section
 const testimonials = [
   {
-    name: "Alice Johnson",
-    role: "Frontend Developer at XYZ",
+    name: "Ravi Pandit",
+    role: "Java Developer | colleague",
     message:
       "Nigam is a highly skilled developer! His code is clean, efficient, and his problem-solving skills are top-notch.",
-    avatar: "https://i.pravatar.cc/100?img=1",
+    avatar: "/src/assets/images/testimonial1.png",
   },
   {
-    name: "Bob Smith",
-    role: "Team Lead at ABC",
+    name: "Ritesh Sahani",
+    role: "Django Developer | colleague",
     message:
       "Working with Nigam was an amazing experience. He brings creativity and efficiency to every project.",
-    avatar: "https://i.pravatar.cc/100?img=2",
+    avatar: "/src/assets/images/testimonial3.jpg",
   },
   {
-    name: "Clara Williams",
-    role: "Product Manager",
+    name: "Abishek Gupta",
+    role: "Full Stack Developer",
     message:
       "Nigam’s expertise in full-stack development helped us ship our product faster and better. Truly reliable!",
-    avatar: "https://i.pravatar.cc/100?img=3",
+    avatar: "src/assets/images/testimonial2.jpg",
   },
 ];
 
@@ -250,14 +250,14 @@ const profile = {
           </div>
         </section>
 
-        {/* Scroll indicator */}
+        {/* Scroll indicator
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2">
           <span className="text-gray-400 text-sm flex items-center gap-2">
             <i className="fas fa-mouse text-blue-400"></i>
             About me
           </span>
           <i className="fas fa-chevron-down text-blue-400 text-xl"></i>
-        </div>
+        </div> */}
 
         {/* Testimonial Section */}
         <TestimonialSection />

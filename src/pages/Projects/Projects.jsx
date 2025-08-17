@@ -28,7 +28,7 @@ const projects = [
       "An intelligent e-commerce search system that lets users find products using images instead of text. Built with CNNs for feature extraction, cosine similarity for visual matching, and integrated with Django REST API and React frontend.",
     url: "src/assets/images/imagesearch.png", // Replace with real screenshot
     color: "#FF6B6B",
-    githubLink: "https://github.com/nigamyadav72/image-search-system", // update if repo name differs
+    githubLink: "https://github.com/nigamyadav72/Major_Project", // update if repo name differs
     liveLink: "https://image-search-system.vercel.app/", // update with your demo link
   },
 ];
