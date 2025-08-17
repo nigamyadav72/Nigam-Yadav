@@ -17,7 +17,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+![Portfolio Demo](./public/screenshot.png)
 
 ---
 
@@ -56,7 +56,7 @@ portfolio/
 │   │   │   │   ├── Contact.jsx
 │   │   │   │   ├── Education.jsx
 │   │   │   │   ├── enhanced-portfolio-card.jsx
-│   │   │   │   ├── Experience.jsx
+│   │   │   │   ├── footer.jsx
 │   │   │   │   ├── global.jsx
 │   │   │   │   ├── Header.jsx
 │   │   │   │   ├── Hero.jsx
@@ -189,5 +189,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Nazmul Hossain </div>
+<div align="center"> Made with ❤️ by Nigam Yadav </div>
 
