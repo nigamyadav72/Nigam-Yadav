@@ -6,6 +6,7 @@ import {
   FaCode,
   FaEnvelope,
   FaBars,
+  FaUser,
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
@@ -26,6 +27,7 @@ export default function Header() {
 
   const navLinks = [
     { id: "home", icon: FaHome, text: "Home", path: "/" },
+    { id: "about", icon: FaUser, text: "About", path: "/about" },
     { id: "skills", icon: FaCode, text: "Skills", path: "/skills" },
     {
       id: "education",

@@ -8,6 +8,7 @@ import Skills from "./pages/Skills/Skills";
 import Education from "./pages/Education/Education";
 
 import { Route, Routes } from "react-router-dom";
+import About from "./pages/About/About";
 
 export default function App() {
   const [isOnePage, setIsOnePage] = useState(false); // Toggle state
@@ -29,6 +30,7 @@ export default function App() {
         // Router Mode: Use routes for navigation
         <Routes>`
           <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
       
           <Route path="/education" element={<Education />} />
