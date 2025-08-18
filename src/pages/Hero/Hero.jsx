@@ -98,7 +98,7 @@ export default function Hero() {
   const words = [
     "Full-Stack Developer & AI Enthusiast",
     "JavaScript Developer",
-    "Learning MERN Stack",
+    "Learning App Development",
     "Linux & GitHub for DevOps Enthusiast",
   ];
 
@@ -107,7 +107,7 @@ const profile = {
     name: 'Nigam Yadav',
     title: 'Full-Stack Developer | AI Enthusiast | Problem Solver',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
+        'React', 'NextJS', 'NodeJS', 'Express',
         'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
         'GraphQL', 'Git', 'Linux'
     ],
