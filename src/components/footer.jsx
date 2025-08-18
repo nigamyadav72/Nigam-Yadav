@@ -5,22 +5,22 @@ export default function Footer() {
   const socials = [
     {
       icon: <FaGithub />,
-      href: "https://github.com/yourgithub",
+      href: "https://github.com/nigamyadav72",
       color: "hover:text-white",
     },
     {
       icon: <FaTwitter />,
-      href: "https://twitter.com/yourtwitter",
+      href: "https://x.com/NIGAM22370630",
       color: "hover:text-sky-400",
     },
     {
       icon: <FaLinkedin />,
-      href: "https://linkedin.com/in/yourlinkedin",
+      href: "https://linkedin.com/in/nigamyadav72",
       color: "hover:text-blue-500",
     },
     {
       icon: <FaInstagram />,
-      href: "https://instagram.com/yourinstagram",
+      href: "https://www.instagram.com/nigamyadav72/",
       color:
         "hover:text-pink-500 hover:[&>svg]:hover:fill-[url(#instagramGradient)]",
     },
