@@ -149,7 +149,7 @@ export default function Contact() {
                   <div>
                     <input
                       type="text"
-                      placeholder="Enter your full name"
+                      placeholder="John Doe"
                       className={`w-full px-4 py-3 rounded-lg bg-white/5 border ${
                         errors.name ? "border-red-500" : "border-gray-700"
                       } focus:border-blue-500 focus:outline-none transition-colors`}
@@ -166,7 +166,7 @@ export default function Contact() {
                   <div>
                     <input
                       type="email"
-                      placeholder="Enter your email address"
+                      placeholder="JohnDoe@gmail.com"
                       className={`w-full px-4 py-3 rounded-lg bg-white/5 border ${
                         errors.email ? "border-red-500" : "border-gray-700"
                       } focus:border-blue-500 focus:outline-none transition-colors`}
