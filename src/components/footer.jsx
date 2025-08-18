@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Text */}
-        <p className="text-sm">
+        <p className="text-lg">
           Made with <span className="text-red-500">❤️</span> by{" "}
           <span className="text-white font-semibold">Nigam Yadav</span>
         </p>
