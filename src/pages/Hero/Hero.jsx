@@ -83,7 +83,7 @@ const TestimonialSection = () => {
                 alt={t.name}
                 className="w-20 h-20 rounded-full mb-4 border-2 border-blue-500"
               />
-              <p className="text-gray-300 mb-4 italic">"{t.message}"</p>
+              <p className="text-gray-300 mb-4 font-medium">"{t.message}"</p>
               <h3 className="text-white font-semibold">{t.name}</h3>
               <span className="text-blue-400 text-sm">{t.role}</span>
             </div>
