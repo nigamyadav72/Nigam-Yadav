@@ -6,7 +6,7 @@ import Meteors from "@/components/ui/meteors";
 import SparklesText from "@/components/ui/sparkles-text";
 import { FlipWords } from "@/components/ui/flip-words";
 import Footer from "@/components/footer";
-
+import TestimonialSection from "../Testimonial/Testimonial";
 // Grid Background - Replacing the HexagonBackground
 const GridBackground = () => {
   return (
@@ -40,59 +40,6 @@ const GridBackground = () => {
   );
 };
 
-// Testimonial Section
-const testimonials = [
-  {
-    name: "Ravi Pandit",
-    role: "Java Developer | colleague",
-    message:
-      "Nigam is a highly skilled developer! His code is clean, efficient, and his problem-solving skills are top-notch.",
-    avatar: "/assets/images/testimonial1.png",
-  },
-  {
-    name: "Ritesh Sahani",
-    role: "Django Developer | colleague",
-    message:
-      "Working with Nigam was an amazing experience. He brings creativity and efficiency to every project.",
-    avatar: "/assets/images/testimonial3.jpg",
-  },
-  {
-    name: "Abishek Gupta",
-    role: "Full Stack Developer",
-    message:
-      "Nigam’s expertise in full-stack development helped us ship our product faster and better. Truly reliable!",
-    avatar: "/assets/images/testimonial2.jpg",
-  },
-];
-
-const TestimonialSection = () => {
-  return (
-    <section className="py-16 bg-[#0a0f1f] relative z-10">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-12">
-          What People Say About Me
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((t, index) => (
-            <div
-              key={index}
-              className="bg-gray-900/40 backdrop-blur-sm rounded-xl p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300"
-            >
-              <img
-                src={t.avatar}
-                alt={t.name}
-                className="w-20 h-20 rounded-full mb-4 border-2 border-blue-500"
-              />
-              <p className="text-gray-300 mb-4 font-medium">"{t.message}"</p>
-              <h3 className="text-white font-semibold">{t.name}</h3>
-              <span className="text-blue-400 text-sm">{t.role}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
 
 export default function Hero() {
   const words = [
