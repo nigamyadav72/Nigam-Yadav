@@ -2,6 +2,7 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
+import Footer from "@/components/footer";
 
 const projects = [
   {
@@ -106,6 +107,7 @@ export default function Projects() {
             );
           })}
         </section>
+        <Footer/>
       </main>
     </ReactLenis>
   );
@@ -127,6 +129,7 @@ function Card({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
+    
     <div
       ref={container}
       className="h-screen flex items-center justify-center sticky top-0 project-container"
@@ -221,6 +224,7 @@ function Card({
           </div>
         </div>
       </motion.div>
+      
     </div>
   );
 }

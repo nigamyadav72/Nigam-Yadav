@@ -1,8 +1,10 @@
 
+import Footer from "@/components/footer";
 import { motion } from "framer-motion";
 
 export default function About() {
   return (
+    <main>
     <section
       id="about"
       className="relative py-20 md:py-32 text-white bg-[#04081A] overflow-hidden"
@@ -70,5 +72,8 @@ export default function About() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </main>
+
   );
 }

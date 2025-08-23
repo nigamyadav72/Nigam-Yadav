@@ -6,6 +6,7 @@ import {
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import Footer from "@/components/footer";
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -59,6 +60,7 @@ const EducationSection = () => {
   };
 
   return (
+    <main>
     <section className="min-h-screen relative overflow-hidden py-40 bg-[#04081A]">
       {/* Grid Background */}
       <div className="absolute inset-0 z-0">
@@ -187,6 +189,8 @@ const EducationSection = () => {
         </motion.div>
       </div>
     </section>
+    <Footer/>
+    </main>
   );
 };
 
