@@ -8,10 +8,19 @@ const projects = [
   {
     title: "E-commerce Flutter App",
     description:
-      "A flutter ecommerce app that uses vision transfer to retrieve the product from the database with similarity matching with the product which we searched from the visual search of the app",
+      "A flutter ecommerce app that uses vision transfer to retrieve the product from the database with similarity matching with the product which we searched from the visual search of the app.",
     url: "/assets/images/ecommerce app.jpg", // Replace with real screenshot
     color: "#00C9A7",
     githubLink: "https://github.com/nigamyadav72/MajorProject_App", // update if repo name differs
+    // update if live demo link differs
+  },
+   {
+    title: "Weather App",
+    description:
+      "A weather app developed using flutter that fetches real time weather data from API calls and display that with nice UI.",
+    url: "/assets/images/weather app.jpeg", // Replace with real screenshot
+    color: "#00C9A7",
+    githubLink: "https://github.com/nigamyadav72/Weather_App", // update if repo name differs
     // update if live demo link differs
   },
   {
