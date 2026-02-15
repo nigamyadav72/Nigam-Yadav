@@ -6,6 +6,15 @@ import Footer from "@/components/footer";
 
 const projects = [
   {
+    title: "E-commerce Flutter App",
+    description:
+      "A flutter ecommerce app that uses vision transfer to retrieve the product from the database with similarity matching with the product which we searched from the visual search of the app",
+    url: "/assets/images/ecommerce app.jpg", // Replace with real screenshot
+    color: "#00C9A7",
+    githubLink: "https://github.com/nigamyadav72/MajorProject_App", // update if repo name differs
+    // update if live demo link differs
+  },
+  {
     title: "Daraz Review Insight (Product Analysis using NLP)",
     description:
       "A browser extension that scrapes product reviews from Daraz, analyzes sentiment using VADER and a Logistic Regression model, and provides real-time insights without using a database.",
@@ -32,6 +41,7 @@ const projects = [
     githubLink: "https://github.com/nigamyadav72/Major_Project", // update if repo name differs
     liveLink: "https://image-search-system.vercel.app/", // update with your demo link
   },
+
 ];
 
 export default function Projects() {
