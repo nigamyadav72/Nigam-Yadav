@@ -12,15 +12,15 @@ const projects = [
     url: "/assets/images/ecommerce app.jpg", // Replace with real screenshot
     color: "#00C9A7",
     githubLink: "https://github.com/nigamyadav72/MajorProject_App",
-    isMobile: true, 
+    isMobile: true,
   },
-   {
+  {
     title: "Weather App",
     description:
       "A weather app developed using flutter that fetches real time weather data from API calls and display that with nice UI.",
     url: "/assets/images/weather app.jpeg", // Replace with real screenshot
     color: "#00C9A7",
-    githubLink: "https://github.com/nigamyadav72/Weather_App", 
+    githubLink: "https://github.com/nigamyadav72/Weather_App",
     isMobile: true,
   },
   {
@@ -50,7 +50,6 @@ const projects = [
     githubLink: "https://github.com/nigamyadav72/Major_Project", // update if repo name differs
     liveLink: "https://image-search-system.vercel.app/", // update with your demo link
   },
-
 ];
 
 export default function Projects() {
@@ -122,12 +121,12 @@ export default function Projects() {
                 targetScale={targetScale}
                 githubLink={project.githubLink}
                 liveLink={project.liveLink}
-                isMobile={project.isMobile} 
+                isMobile={project.isMobile}
               />
             );
           })}
         </section>
-        <Footer/>
+        <Footer />
       </main>
     </ReactLenis>
   );
@@ -150,7 +149,6 @@ function Card({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
-    
     <div
       ref={container}
       className="h-screen flex items-center justify-center sticky top-0 project-container"
@@ -168,28 +166,25 @@ function Card({
         {/* Split Card */}
         <div className="w-full flex flex-col md:flex-row bg-zinc-900 rounded-2xl overflow-hidden shadow-xl">
           {/* Image Section */}
-          <div
+<div
   className={`
     w-full md:w-[55%] relative overflow-hidden flex items-center justify-center bg-black
-    ${isMobile 
-      ? "h-[400px] md:h-[500px] lg:h-[550px]" 
-      : "h-[250px] md:h-[400px] lg:h-[450px]"
-    }
   `}
 >
-            <motion.img
-              src={url}
-              alt={title}
-              className={`
-  ${isMobile 
-    ? "h-full w-auto object-contain" 
-    : "w-full h-full object-cover"
-  }
-`}
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.4 }}
-            />
+  <motion.img
+    src={url}
+    alt={title}
+    className={`
+      ${isMobile 
+        ? "h-[90%] w-auto object-contain max-h-[500px]" 
+        : "w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover"
+      }
+    `}
+    initial={{ scale: 1 }}
+    whileHover={{ scale: 1.05 }}
+    transition={{ duration: 0.4 }}
+  />
+
 
             {/* Hover Overlay */}
             <motion.div
@@ -258,7 +253,6 @@ function Card({
           </div>
         </div>
       </motion.div>
-      
     </div>
   );
 }
