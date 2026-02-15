@@ -166,24 +166,29 @@ function Card({
         {/* Split Card */}
         <div className="w-full flex flex-col md:flex-row bg-zinc-900 rounded-2xl overflow-hidden shadow-xl">
           {/* Image Section */}
-<div
-  className={`
-    w-full md:w-[55%] relative overflow-hidden flex items-center justify-center bg-black
-  `}
->
-  <motion.img
-    src={url}
-    alt={title}
-    className={`
-      ${isMobile 
-        ? "h-[90%] w-auto object-contain max-h-[500px]" 
-        : "w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover"
-      }
-    `}
-    initial={{ scale: 1 }}
-    whileHover={{ scale: 1.05 }}
-    transition={{ duration: 0.4 }}
-  />
+<div className="w-full md:w-[55%] flex items-center justify-center bg-black p-6">
+  
+  {isMobile ? (
+    <motion.img
+      src={url}
+      alt={title}
+      className="w-[220px] md:w-[260px] lg:w-[300px] h-auto object-contain rounded-xl shadow-lg"
+      initial={{ scale: 1 }}
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.4 }}
+    />
+  ) : (
+    <motion.img
+      src={url}
+      alt={title}
+      className="w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover"
+      initial={{ scale: 1 }}
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.4 }}
+    />
+  )}
+
+
 
 
             {/* Hover Overlay */}
