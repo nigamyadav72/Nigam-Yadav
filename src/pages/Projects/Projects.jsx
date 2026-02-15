@@ -11,8 +11,8 @@ const projects = [
       "A flutter ecommerce app that uses vision transfer to retrieve the product from the database with similarity matching with the product which we searched from the visual search of the app.",
     url: "/assets/images/ecommerce app.jpg", // Replace with real screenshot
     color: "#00C9A7",
-    githubLink: "https://github.com/nigamyadav72/MajorProject_App", // update if repo name differs
-    // update if live demo link differs
+    githubLink: "https://github.com/nigamyadav72/MajorProject_App",
+    isMobile: true, 
   },
    {
     title: "Weather App",
@@ -20,8 +20,8 @@ const projects = [
       "A weather app developed using flutter that fetches real time weather data from API calls and display that with nice UI.",
     url: "/assets/images/weather app.jpeg", // Replace with real screenshot
     color: "#00C9A7",
-    githubLink: "https://github.com/nigamyadav72/Weather_App", // update if repo name differs
-    // update if live demo link differs
+    githubLink: "https://github.com/nigamyadav72/Weather_App", 
+    isMobile: true,
   },
   {
     title: "Daraz Review Insight (Product Analysis using NLP)",
@@ -122,6 +122,7 @@ export default function Projects() {
                 targetScale={targetScale}
                 githubLink={project.githubLink}
                 liveLink={project.liveLink}
+                isMobile={project.isMobile} 
               />
             );
           })}
@@ -143,6 +144,7 @@ function Card({
   targetScale,
   githubLink,
   liveLink,
+  isMobile = false,
 }) {
   const container = useRef(null);
   const scale = useTransform(progress, range, [1, targetScale]);
@@ -166,11 +168,24 @@ function Card({
         {/* Split Card */}
         <div className="w-full flex flex-col md:flex-row bg-zinc-900 rounded-2xl overflow-hidden shadow-xl">
           {/* Image Section */}
-          <div className="w-full md:w-[55%] h-[250px] md:h-[400px] lg:h-[450px] relative overflow-hidden">
+          <div
+  className={`
+    w-full md:w-[55%] relative overflow-hidden flex items-center justify-center bg-black
+    ${isMobile 
+      ? "h-[400px] md:h-[500px] lg:h-[550px]" 
+      : "h-[250px] md:h-[400px] lg:h-[450px]"
+    }
+  `}
+>
             <motion.img
               src={url}
               alt={title}
-              className="w-full h-full object-cover"
+              className={`
+  ${isMobile 
+    ? "h-full w-auto object-contain" 
+    : "w-full h-full object-cover"
+  }
+`}
               initial={{ scale: 1 }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.4 }}
