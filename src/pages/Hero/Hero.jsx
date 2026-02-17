@@ -45,7 +45,7 @@ export default function Hero() {
   const words = [
     "Full-Stack Developer & AI Enthusiast",
     "JavaScript Developer",
-    "Learning App Development",
+    "Flutter App Developer",
     "Linux & GitHub for DevOps Enthusiast",
   ];
 
