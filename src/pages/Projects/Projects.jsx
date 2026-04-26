@@ -48,7 +48,7 @@ const projects = [
     url: "/assets/images/imagesearch.png", // Replace with real screenshot
     color: "#FF6B6B",
     githubLink: "https://github.com/nigamyadav72/Major_Project", // update if repo name differs
-    liveLink: "https://image-search-system.vercel.app/", // update with your demo link
+    liveLink: "https://majorproject-deployment-2hsxl.ondigitalocean.app/", // update with your demo link
   },
 ];
 
