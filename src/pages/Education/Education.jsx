@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import Footer from "@/components/footer";
+import SEO from "@/components/SEO";
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -61,6 +62,11 @@ const EducationSection = () => {
 
   return (
     <main>
+    <SEO
+      title="Education of Nigam Yadav | Computer Engineering Student"
+      description="Educational journey of Nigam Yadav. Bachelor in Computer Engineering at IOE Purwanchal Campus. Skills in programming, data structures, web development, and AI/ML."
+      path="/education"
+    />
     <section className="min-h-screen relative overflow-hidden py-40 bg-[#04081A]">
       {/* Grid Background */}
       <div className="absolute inset-0 z-0">

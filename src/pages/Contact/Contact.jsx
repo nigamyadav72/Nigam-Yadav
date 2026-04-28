@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Send, Phone, MapPin, Mail } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import Footer from "@/components/footer";
+import SEO from "@/components/SEO";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -88,6 +89,11 @@ export default function Contact() {
 
   return (
     <main className="pt-20 lg:pt-[0rem] bg-[#04081A] text-white min-h-screen">
+      <SEO
+        title="Contact Nigam Yadav | Full-Stack Developer"
+        description="Get in touch with Nigam Yadav. Contact via email at yadavnigam72@gmail.com or WhatsApp. Based in Kathmandu, Nepal. Open for freelance and collaboration opportunities."
+        path="/contact"
+      />
       <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import SEO from "@/components/SEO";
 import Prism from "prismjs";
 import "prismjs/components/prism-javascript";
 import "@/assets/css/tomorrow.css";
@@ -97,6 +98,11 @@ const profile = {
 
   return (
     <>
+      <SEO
+        title="Nigam Yadav | Full-Stack Developer & AI Enthusiast"
+        description="Portfolio of Nigam Yadav — Full-Stack Developer from Nepal. Specializing in React, Node.js, Flutter, and AI/ML. View projects, skills, and get in touch."
+        path="/"
+      />
       <main className="bg-[#020617] text-white min-h-screen">
         <section className="hero min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-0">
           <GridBackground />

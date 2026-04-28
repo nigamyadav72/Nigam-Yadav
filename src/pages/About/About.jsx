@@ -1,10 +1,16 @@
 
 import Footer from "@/components/footer";
 import { motion } from "framer-motion";
+import SEO from "@/components/SEO";
 
 export default function About() {
   return (
     <main>
+    <SEO
+      title="About Nigam Yadav | Full-Stack Developer & AI Enthusiast"
+      description="Learn about Nigam Yadav, a passionate full-stack developer from Nepal specializing in React, Node.js, and AI. Crafting elegant user-friendly interfaces and powerful backend systems."
+      path="/about"
+    />
     <section
       id="about"
       className="relative py-20 md:py-32 text-white bg-[#04081A] overflow-hidden"
@@ -41,7 +47,7 @@ export default function About() {
             <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-purple-500 to-blue-500 blur opacity-40 group-hover:opacity-70 transition duration-500"></div>
             <img
               src="assets/images/hero.jpeg"
-              alt="About illustration"
+              alt="Nigam Yadav - Full Stack Developer Portfolio"
               className="relative rounded-2xl shadow-xl border border-white/10"
             />
           </motion.div>

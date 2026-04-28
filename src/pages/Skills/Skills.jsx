@@ -32,6 +32,7 @@ import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
 import { FcWorkflow } from "react-icons/fc";
 import Footer from "@/components/footer";
+import SEO from "@/components/SEO";
 
 const SkillCard = ({ icon: Icon, title, skills, color }) => (
   <Card className="group relative overflow-hidden bg-gray-900/80 border-gray-700 hover:scale-[1.02] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20">
@@ -205,6 +206,11 @@ const SkillsSection = () => {
 
   return (
     <main className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative">
+      <SEO
+        title="Skills of Nigam Yadav | React, Node.js, Flutter, AI/ML"
+        description="Technical skills of Nigam Yadav: React, Next.js, TypeScript, Node.js, Python, PostgreSQL, MongoDB, Docker, AWS, Flutter, and more."
+        path="/skills"
+      />
       {/* Grid Background */}
       <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
 

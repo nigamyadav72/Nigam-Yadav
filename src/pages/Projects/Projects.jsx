@@ -3,6 +3,7 @@ import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import Footer from "@/components/footer";
+import SEO from "@/components/SEO";
 
 const projects = [
   {
@@ -105,6 +106,11 @@ export default function Projects() {
   return (
     <ReactLenis root>
       <main className="bg-black" ref={container}>
+        <SEO
+          title="Projects by Nigam Yadav | Full-Stack Developer Portfolio"
+          description="Explore projects by Nigam Yadav including E-commerce Flutter App, Spotify Clone, Image-Based Search System, and more. Built with React, Node.js, Python, and Flutter."
+          path="/projects"
+        />
         <section className="text-white w-full bg-slate-950">
           {projects.map((project, i) => {
             const targetScale = 1 - (projects.length - i) * 0.05;
